@@ -1,0 +1,33 @@
+.item {
+  width: 540px;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.item img {
+  width: 400px;
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  margin: 0 auto;
+}
+
+.item h1,
+.item p {
+  margin-bottom: 0.8rem;
+}
+
+.item .link {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 1rem 3rem;
+}
+
+@media (jmax-width: 500px) {
+  .item .link {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+}
