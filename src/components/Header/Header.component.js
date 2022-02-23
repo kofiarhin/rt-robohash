@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className="main-header">
         <Link to="/">
-          <h1 className="logo">Logo</h1>
+          <h1 className="logo">Robohash</h1>
         </Link>
 
         <nav>

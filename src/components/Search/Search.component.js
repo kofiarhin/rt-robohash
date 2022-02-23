@@ -9,13 +9,11 @@ const Search = () => {
   };
   return (
     <div className="search">
-      <form action="">
-        <input
-          type="text"
-          placeholder="Search Robots"
-          onChange={(e) => onHandleChange(e)}
-        />
-      </form>
+      <input
+        type="text"
+        placeholder="Search Robots"
+        onChange={(e) => onHandleChange(e)}
+      />
     </div>
   );
 };
